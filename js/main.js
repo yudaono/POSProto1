@@ -6,6 +6,8 @@ document.querySelector('#search-close').onclick = () => {
     document.querySelector('#search-form').classList.remove('active');
 }
 
+
+
 let menu = document.querySelector('#menu-bars');
 let navbar = document.querySelector('.navbar');
 
