@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS Website | Proto 1</title>
+    
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <header>
+        <a href="#" class="logo"><img src="/img/Logo_Upnormal.png" alt=""><i class=""></i></a>
+        
+        <nav class="navbar">
+            <a href="/index.html" class="active">Home</a>
+            <a href="/index.html#makanan">Makanan</a>
+            <a href="/page/chart.html">Pesan</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fa-solid fa-bars" id="menu-bars"></i>
+            <i class="fa-solid fa-magnifying-glass navicon" id="search-icon"></i>
+            <a href="#" class="fa-solid fa-cart-shopping navicon"></a>
+            <a href="#" class="fa-solid fa-user navicon"></a>
+        </div>
+    </header>
+
+    <!-- search bar -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fa-solid fa-xmark" id="search-close"></i>
+    </form>
+
+    <section class="cart">
+        <table>
+            <tr>
+                <th>Produk</th>
+                <th>Jumlah</th>
+                <th>Harga</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/img/dish-1.png" alt="">
+                        <div>
+                            <p>Delicious Food</p>
+                            <small>Rp. 50.000</small><br>
+                            <a href="">remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rp 50.000</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="/img/dish-2.png" alt="">
+                        <div>
+                            <p>Delicious Food</p>
+                            <small>Rp. 50.000</small><br>
+                            <a href="">remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rp 50.000</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Total Harga</td>
+                <td>Rp 100.000</td>
+            </tr>
+        </table>
+
+        <div class="order-now">
+            <a href="/index.html" class="btn">Tambah</a>
+            <a href="/index.html" class="btn">Order</a>
+        </div>
+    </section>
+
+    <script src="/js/main.js"></script>
+
+</body>
