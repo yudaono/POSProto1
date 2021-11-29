@@ -432,7 +432,7 @@ header .icons .navicon {
     resize: none;
 }
 
-.order form .btn{
+.order form .btn  {
     margin-top: 0;
 }
 
@@ -440,17 +440,13 @@ header .icons .navicon {
     margin-top: 80px;
 }
 
-table {
+.cart table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.cart-info {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-th{
+.cart table tr th{
     text-align: left;
     padding: 5px;
     color: #281c24;
@@ -458,17 +454,17 @@ th{
     font-weight: 1000;
 }
 
-td{
+.cart table tr td{
     padding: 10px 5px;
     align-items: center;
     font-size: larger;
 }
-td input{
+.cart table tr td input{
     width: 40px;
     height: 30px;
     padding: 5px;
 }
-td a{
+.cart table tr td .cart-info div a{
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
@@ -478,27 +474,33 @@ td a{
     outline-offset: -.2rem;
     padding: .25rem 1rem;
 }
-td a:hover{
+.cart table tr td .cart-info div a:hover{
     background: var(--chocolate);
     margin-top: 2rem;
     color: #fff;
 }
-td p{
+.cart table tr td .cart-info div p{
     font-size: larger;
 }
-td small{
+.cart table tr td .cart-info div small{
     font-size: 2rem;
 }
-td img{
+.cart table tr td .cart-info img{
     width: 80px;
     height: 80px;
     margin-right: 10px;
 }
-td input{
+.cart table tr td input{
     font-size: 1.7rem;
 }
-.order-now{
+.cart .order-now{
     text-align: right;
+}
+
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
